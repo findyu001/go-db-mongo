@@ -1,4 +1,4 @@
-package mongodb
+package tagparser
 
 import (
   "go.mongodb.org/mongo-driver/bson/bsoncodec"

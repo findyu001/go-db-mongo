@@ -2,9 +2,9 @@ package field
 
 import (
   "fmt"
-  "github.com/xpwu/go-db-mongo/mongodb"
   "github.com/xpwu/go-db-mongo/mongodb/filter"
   "github.com/xpwu/go-db-mongo/mongodb/geojson"
+  "github.com/xpwu/go-db-mongo/mongodb/tagparser"
   "github.com/xpwu/go-db-mongo/mongodb/updater"
   "os"
   "path"
@@ -468,7 +468,7 @@ func (b *Builder) buildStruct(t reflect.Type) (ft Type, ok bool) {
     if f.PkgPath != "" {
       continue
     }
-    tag, _ := mongodb.StructTagParser(f)
+    tag, _ := tagparser.StructTagParser(f)
     if tag.Skip {
       continue
     }

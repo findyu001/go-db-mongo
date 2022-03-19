@@ -21,6 +21,8 @@ github.com/xdg-go/scram v1.0.2/go.mod h1:1WAq6h33pAW+iRreB34OORO2Nf7qel3VV3fjBj+
 github.com/xdg-go/stringprep v1.0.2/go.mod h1:8F9zXuvzgwmyT5DUm4GUfZGDdT3W+LCvS6+da4O5kxM=
 github.com/xpwu/go-cmd v0.0.0-20220210070727-ca5bec5c9e45 h1:HsJz0FgCh2DOBluvU7P6HmJ5tuM19OONIflAS69zPnI=
 github.com/xpwu/go-cmd v0.0.0-20220210070727-ca5bec5c9e45/go.mod h1:9wb9TDqTcFZsGQlipv28x86gjL0W3HSxLDFr9CHggZA=
+github.com/xpwu/go-cmd v0.0.0-20220319074853-4679edc5c064 h1:abdvFLdsOl4JW7XPX8XO9avA+J9A5KszyIYU4FPefoE=
+github.com/xpwu/go-cmd v0.0.0-20220319074853-4679edc5c064/go.mod h1:9wb9TDqTcFZsGQlipv28x86gjL0W3HSxLDFr9CHggZA=
 github.com/xpwu/go-config v0.0.0-20220121153622-7b6f40653b1b/go.mod h1:WcIGlQK06FsHcu0NeuQ7bB8bZFkeVvPGwrcKI2aMaFc=
 github.com/xpwu/go-config v0.0.0-20220211175849-2ba23035fa38/go.mod h1:MHp/pOvdO9l81QG2fOlQDOeOie7q2SnK2BDUgrXX5C8=
 github.com/xpwu/go-log v0.0.0-20220121154757-1a8eef3685db/go.mod h1:thZXl+ouliDHmuZ8KLz7pAnFu9errw27Vamhv1jA5xE=

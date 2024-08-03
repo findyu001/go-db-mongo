@@ -11,6 +11,11 @@ import (
 func init() {
   builderR0 = func(b *Builder) {
     
+    b.RegisterType(reflect.TypeOf((*Fields)(nil)).Elem(), Type{
+      F:    reflect.TypeOf((*Fields0F)(nil)).Elem(),
+      NewF: NewTypByFunc(NewFields0F),
+    })
+    
     b.RegisterType(reflect.TypeOf((*int)(nil)).Elem(), Type{
       F:    reflect.TypeOf((*Int0F)(nil)).Elem(),
       NewF: NewTypByFunc(NewInt0F),

@@ -28,6 +28,7 @@ func init() {
       (*String1Field)(nil),
       (*Binary1Field)(nil),
       (*Decimal1281Field)(nil),
+      (*Fields1Field)(nil),
     }
   
     fieldNews := []interface{}{
@@ -47,6 +48,7 @@ func init() {
       NewString1Field,
       NewBinary1Field,
       NewDecimal1281Field,
+      NewFields1Field,
     }
   
     for i,t := range all1 {
